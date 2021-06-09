@@ -20,20 +20,23 @@ header {
 section{ 
     padding: 1rem;
     margin: auto;
+    background-color: var(--bg-color);
+    text-align: center;
 }
 
 textarea{
     display: block;
     width: 80%;
     margin: auto;
+    min-height: 20vh;
 }
  
 button{
-    text-align: center;
+    /* text-align: center; */
     display: block;
     margin: 1rem,auto;
     border-radius: 0.5rem;
-    border-style: var(--primary-color);
+    border-color: var(--primary-color);
     text-decoration-color: var(--primary-color);
 }
 
