@@ -32,12 +32,12 @@ textarea{
 }
  
 button{
-    /* text-align: center; */
     display: block;
     margin: 1rem,auto;
     border-radius: 0.5rem;
     border-color: var(--primary-color);
     text-decoration-color: var(--primary-color);
+    padding: 1rem;
 }
 
 footer {
