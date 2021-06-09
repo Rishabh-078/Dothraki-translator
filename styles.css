@@ -24,19 +24,21 @@ section{
 
 textarea{
     display: block;
-    width: 100%
+    width: 80%;
+    margin: auto;
 }
  
 button{
     text-align: center;
     display: block;
-    margin: auto;
+    margin: 1rem,auto;
     border-radius: 0.5rem;
     border-style: var(--primary-color);
     text-decoration-color: var(--primary-color);
 }
 
 footer {
+    bottom: 0;
     width: 100%;
     padding: 1rem;
     background-color: var(--primary-color);
