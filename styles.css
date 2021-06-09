@@ -22,6 +22,7 @@ section{
     margin: auto;
     background-color: var(--bg-color);
     text-align: center;
+    color: var(--primary-color);
 }
 
 textarea{
@@ -48,4 +49,5 @@ footer {
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
+    color: var(--text-color);
 }
