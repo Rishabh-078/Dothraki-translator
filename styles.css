@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,700;1,900&display=swap');
 
-<body>
+body {
 font-family: 'Merriweather', serif;
-</body>
+}
 
 :root {
     --primary-color: #92400E;
@@ -14,10 +14,10 @@ header {
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 2rem;
-    margin: auto;
+    text-align: center;
 }
 
 section{ 
-    padding: 2rem;
+    padding: 1rem;
     margin: auto;
 }
