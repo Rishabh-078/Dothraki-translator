@@ -14,13 +14,18 @@ header {
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 2rem;
-    text-align: left;
+    text-align: center;
+    border-radius: 0.5rem;
 }
-.pic {
+
+.pic-size {
+    max-width: 400px;
+    max-height: 250px;
+    min-width: 100px;
+    min-height: 50px;
+    padding-top: 1rem;
     display: block;
-    align-self: right;
-    width: 10px;
-    height: 30px;
+    margin: auto;
 }
 
 section{ 
@@ -35,8 +40,9 @@ textarea{
     display: block;
     width: 80%;
     margin: 1rem auto;
-    min-height: 15vh;
+    min-height: 7.5vh;
     padding-bottom: 0.5rem;
+    text-align: center;
 }
  
 button{
@@ -49,11 +55,9 @@ button{
 }
 
 footer {
-    position:fixed;
-    bottom: 0;
-    width: 100%;
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
     color: var(--text-color);
+    border-radius: 0.5rem;
 }
