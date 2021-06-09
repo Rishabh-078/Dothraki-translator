@@ -19,8 +19,8 @@ header {
 .pic {
     display: block;
     align-self: right;
-    width: 30%;
-    height: 30%;
+    width: 10px;
+    height: 30px;
 }
 
 section{ 
