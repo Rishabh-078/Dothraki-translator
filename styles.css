@@ -10,14 +10,14 @@ font-family: 'Merriweather', serif;
 
 }
 
-.header {
+header {
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 2rem;
     margin: auto;
 }
 
-.section{ 
+section{ 
     padding: 2rem;
     margin: auto;
 }
