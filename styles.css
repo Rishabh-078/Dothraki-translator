@@ -27,8 +27,9 @@ section{
 textarea{
     display: block;
     width: 80%;
-    margin: auto;
-    min-height: 20vh;
+    margin: 1rem auto;
+    min-height: 15vh;
+    padding-bottom: 0.5rem;
 }
  
 button{
