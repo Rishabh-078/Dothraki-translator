@@ -5,9 +5,9 @@ font-family: 'Merriweather', serif;
 }
 
 :root {
-    --primary-color: #92400E;
+    --primary-color: #D97706;
     --text-color: #F9FAFB;
-
+    --bg-color: #FEF3C7;
 }
 
 header {
@@ -20,4 +20,25 @@ header {
 section{ 
     padding: 1rem;
     margin: auto;
+}
+
+textarea{
+    display: block;
+    width: 100%
+}
+ 
+button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    border-style: var(--primary-color);
+    text-decoration-color: var(--primary-color);
+}
+
+footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
 }
